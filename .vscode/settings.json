@@ -1,0 +1,10 @@
+{
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 19,
+  "editor.fontWeight": "normal",
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "selection",
+  "editor.cursorStyle": "line",
+  "editor.fontLigatures": true,
+}
