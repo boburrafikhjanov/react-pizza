@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
-import { AddIcon } from './svg';
+import { AddIcon } from '../svg';
 
-function Card({ title, price, imageUrl, sizes, types }) {
+function PizzaBlock({ title, price, imageUrl, sizes, types }) {
   const [activeType, setActiveType] = useState(0);
   const [activeSize, setActiveSize] = useState(0);
   //console.log(sizes);
@@ -52,4 +52,4 @@ function Card({ title, price, imageUrl, sizes, types }) {
   );
 }
 
-export default Card;
+export default PizzaBlock;

@@ -26,6 +26,11 @@
         background-color: #282828;
         color: #fff;
       }
+
+      @media (max-width: 576px) {
+        padding: 8px 12px;
+        font-size: 12px;
+      }
     }
   }
 }
